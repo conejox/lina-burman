@@ -9,24 +9,38 @@
 <body>
     <style>
     body {
-        margin: 0;
-        height: 100vh;
+        /* ...other styles... */
+        transition: background-image 1.5s ease-in-out;
+        margin: auto;
+        width: 80%;
+        height: 80vh;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
-        background-size: cover;
+        background-size:cover;
         background-position: center;
+        background-image: url('./images/CD54B0A4-BE03-437D-8D68-C3BCB6C43748.JPG');
+        padding: 200px; /* Add some space at the bottom */
+        
     }
     
-    .nav-buttons {
-        display: flex;
-        gap: 20px;
+    button {
+        
+        gap: 50px;
+        font-size: 100px; /* Increase the font size */
+        padding:18px 38px; /* Add some padding */
+        border: 20px 30px; /* Remove the default border */
+        border-radius: 12px; /* Add some border radius */
+        font-size: 34px;
+        cursor: pointer; /* Change the cursor when hovering over the button */
+        background: color #17b27100;
     }
+
     </style>
-    <div class="nav-buttons">
-        <button>Button 1</button>
-        <button>Button 2</button>
-        <button>Button 3</button>
+    <div>
+        <button>galery</button>
+        <button>about me</button>
+        <button>workshop</button>
     </div>
     <script src="lina_burman.js"></script>
 </body>
