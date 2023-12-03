@@ -5,9 +5,9 @@ let images = [
     ];
     let currentImage = 0;
     
-    function changeBackgroundImage() {
-        document.body.style.backgroundImage = `url(${images[currentImage]})`;
-        currentImage = (currentImage + 1) % images.length;
-    }
-    
-    setInterval(changeBackgroundImage, 5000); // Change every 5 seconds
+    //function changeBackgroundImage() {
+    //    document.body.style.backgroundImage = `url(${images[currentImage]})`;
+    //    currentImage = (currentImage + 1) % images.length;
+    //}
+    //
+    //setInterval(changeBackgroundImage, 5000); // Change every 5 seconds

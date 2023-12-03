@@ -1,29 +1,16 @@
-
 body {
-    /* ...other styles... */
-    transition: background-image 1.5s ease-in-out;
-    margin: auto;
-    width: 80%;
-    height: 80vh;
+    background-color: #00BB8A; /* Set the background color to blue */
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    background-size:cover;
-    background-position: center;
-    background-image: url('./images/CD54B0A4-BE03-437D-8D68-C3BCB6C43748.JPG');
-    padding: 200px; /* Add some space at the bottom */
-    
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
 }
 
-button {
-    
-    gap: 50px;
-    font-size: 100px; /* Increase the font size */
-    padding:18px 38px; /* Add some padding */
-    border: 20px 30px; /* Remove the default border */
-    border-radius: 12px; /* Add some border radius */
-    font-size: 34px;
-    cursor: pointer; /* Change the cursor when hovering over the button */
-    background: color #17b27100;
+.nav-buttons {
+    padding: 20px; /* Make the buttons larger */
+    font-size: 60px; /* Increase the font size */
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
 }
-
