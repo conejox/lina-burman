@@ -7,7 +7,9 @@ body {
 }
 
 .nav-buttons {
-    padding: 20px; /* Make the buttons larger */
+    width:100px;
+    height:120px ;
+    padding: 10px; /* Make the buttons larger */
     font-size: 60px; /* Increase the font size */
     border: none;
     border-radius: 5px;
