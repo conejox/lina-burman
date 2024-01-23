@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/CD54B0A4-BE03-437D-8D68-C3BCB6C43748.jpg');
+    background-image: url('images/img_10.JPG');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body {
     width: 1000px;
     height: 600px;
     overflow: hidden; 
-    border: 10px solid #000
+    border: 12px solid #000
    
 }
 .carousel img {
