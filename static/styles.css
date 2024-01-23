@@ -1,17 +1,20 @@
 body {
+    background-image: url('images/CD54B0A4-BE03-437D-8D68-C3BCB6C43748.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     padding: 0;
-    
+    background-size: cover; 
+    background-position: center;
 }
 
 .carousel {
     width: 1000px;
     height: 600px;
     overflow: hidden; 
+    border: 10px solid #000
    
 }
 .carousel img {
