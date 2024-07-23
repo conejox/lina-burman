@@ -13,13 +13,9 @@ def gallery():
 def events():
     return render_template('events.html')
 
-@app.route('/image001')
-def image001():
-    return render_template('image001.html')
-
-@app.route('/image002')
-def image002():
-    return render_template('image002.html')
+@app.route('/aboutme')
+def aboutme():
+    return render_template('aboutme.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--image index desingn-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesaboutme.css') }}">
+    <script src="lina_burman.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<title>About Me</title>
+</head>
+<body>
+
+    <div class="container">
+        <section class="item">
+            <img src="{{ url_for('static', filename='images/img_01.jpg') }}" alt="Lina Burman profil">
+        </section>
+        <section class="item text">
+            <p>My name is Lina Burman and I am a visual artist based in Stockholm, Sweden. I work with oil paintings and my art is inspired by the nature and the people around me. I have been painting since I was a child and I have always been fascinated by the colors and shapes of the world. I hope you enjoy my art as much as I enjoy creating it!</p>
+        </section>
+        <section class="item text">
+            <p>For more information about my art and upcoming exhibitions, please contact me at </p>
+            </section>
+        <section class="item">
+            <div class="carusel-container">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{ url_for('static', filename='images/barco007.jpg') }}" alt="red trees" class="d-block w-100">
+                
+                        </div>
+            
+                        <div class="carousel-item">
+                            <img src="{{ url_for('static', filename='images/barco013.jpg') }}" alt="green trees2" class="d-block w-100">
+                           
+                        </div>
+            
+                        <div class="carousel-item">
+                            <img src="{{ url_for('static', filename='images/barco011.jpg') }}" alt="green trees3" class="d-block w-100">
+                           
+                        </div>
+            
+                        <div class="carousel-item">
+                            <img src="{{ url_for('static', filename='images/img_38.jpg') }}" alt="green trees4" class="d-block w-100">
+                            
+                        </div>
+            
+                        <div class="carousel-item">
+                            <img src="{{ url_for('static', filename='images/barco018.jpg') }}" alt="green trees5" class="d-block w-100">
+                           
+                        </div>  
+                    </div>
+                   
+                </div>
+                </div class="carusel-container">
+                <!-- Add Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        </section>
+                
+    </div>
+
+
+	<footer>
+		<p>&copy; [Year] [Your Name]. All rights reserved.</p>
+	</footer>
+</body>
+</html>
