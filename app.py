@@ -17,5 +17,9 @@ def events():
 def aboutme():
     return render_template('aboutme.html')
 
+@app.route('/worshops')
+def workshops():
+    return render_template('workshops.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
